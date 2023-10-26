@@ -1,0 +1,71 @@
+.background-image {
+    background-image: url('../img/banner-initial.png');
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 1);
+  }
+  
+  .btn-last {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #e50914;
+    height: 5rem;
+    width: 10rem;
+    border-radius: 10px !important;
+    color: antiquewhite;
+    font-size: xx-large;
+  }
+  
+  .btn-last:hover {
+    background-color: #900d14 !important;
+  }
+  
+  .divider-section {
+    border-bottom: 3px solid #515c6f;
+  }
+  
+  .accordion-button {
+    background-color: #303030 !important;
+  
+  }
+  
+  .accordion {
+    max-width: 70%;
+  }
+  
+  .accordion-collapse {
+    max-height: 20%;
+    overflow-y: auto;
+  
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      padding: 10px;
+    }
+  
+    .accordion {
+      max-width: 100%;
+  
+    }
+  }
+  
+  .accordion {
+    border: none !important;
+  
+  }
+  
+  #footer-links {
+    font-size: small !important;
+    color: #797b7e;
+  }
+  
+  #footer-duvida {
+    font-size: 18px !important;
+    color: #797b7e;
+  }
+  
+  #acordio-texte {
+    background-color: black !important;
+  }
+  
