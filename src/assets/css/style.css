@@ -6,20 +6,6 @@
     background-color: rgba(0, 0, 0, 1);
   }
   
-  .btn-last {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #e50914;
-    height: 5rem;
-    width: 10rem;
-    border-radius: 10px !important;
-    color: antiquewhite;
-    font-size: xx-large;
-  }
-  
-  .btn-last:hover {
-    background-color: #900d14 !important;
-  }
-  
   .divider-section {
     border-bottom: 3px solid #515c6f;
   }
@@ -45,13 +31,13 @@
     }
   
     .accordion {
-      max-width: 100%;
+      max-width: 90%;
   
     }
   }
   
-  .accordion {
-    border: none !important;
+ .accordion {
+    border: none ;
   
   }
   
@@ -69,3 +55,46 @@
     background-color: black !important;
   }
   
+
+  /* home */
+
+.background-home {
+    background-image: url('../img/growcast-01.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+  
+  }
+  
+  .nav-item {
+    color: beige !important;
+  }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
+
+.card {
+  width: calc(80% - 10px);
+  margin: 10px; 
+}
+
+
+.card-body {
+  display: none;
+  background-color: black !important;
+  color: antiquewhite !important;
+}
+
+.card:hover .card-body {
+  display: block;
+}
+.card {
+  transition: transform 0.5s ease; /
+}
+
+.card:hover {
+  transform: translateY(-10px); 
+}
